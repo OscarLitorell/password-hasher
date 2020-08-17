@@ -1,6 +1,6 @@
 # Password Hasher
 
-![password hasher logo](images/icon48.png "Password Hasher")
+![password hasher logo](images/icon128.png "Password Hasher")
 
 This is a program that simplifies the creation of secure passwords. Instead of having to remember several different passwords for different websites, you can generate your password on the fly with the help of *one* master password. In other words, no password is stored.
 
