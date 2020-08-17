@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password Hasher</title>
+        <!-- Hashing Library -->
+        <script src="lib/sjcl.js"></script> 
+        <!-- Domain parsing -->
+        <script src="lib/psl.min.js"></script>
+
+        <style>
+            .inputs {
+                display: flex;
+                flex-direction: column;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="inputs">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+            <label for="website">Website name</label>
+            <input type="text" name="website" id="website">
+            <label for="password">Master Password</label>
+            <input type="password" name="password" id="password" autofocus>
+            <label for="index">Index</label>
+            <input type="text" name="index" id="index">
+        </div>
+    
+        <p>This is your password:</p>
+        <input id="hash"></input>
+    
+        <button id="copyPassword">Copy</button>
+        <button id="fillInField">Fill password field</button>
+        <button id="save">Save</button>
+
+        <script src="popup.js"></script>
+    </body>
+</html>
