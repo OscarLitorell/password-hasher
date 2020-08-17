@@ -14,7 +14,7 @@ If your generated password has been leaked, you should enter a new value as the 
 
 ## Installation
 
-You can use both the index.html file to enter your credentials, the python script, or you can install it as a chrome extension.
+You can use both the popup.html file to enter your credentials, the python script, or you can install it as a chrome extension.
 
 To install the chrome extension, first download all the files to a folder. Visit [chrome://extensions/](chrome://extensions/), and enable developer mode and then click "Load Unpacked" and select the folder with all the files. To be able to use the extension, click the jigsaw piece in the top right of the chrome window and pin Password Hasher.
 
