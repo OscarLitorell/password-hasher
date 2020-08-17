@@ -18,7 +18,7 @@ So how does it work? In short, it simply concatenates the username (and potentia
 
 ## Security
 
-Each generated password consists of 256 bits, meaning that there are 2^256 combinations, or about 10^77. There is a [great video](https://www.youtube.com/watch?v=S9JGmA5_unY) by 3Blue1Brown showing how large this number is.
+Each generated password consists of 256 bits, meaning that there are 2<sup>256</sup> combinations, or about 10<sup>77</sup>. There is a [great video](https://www.youtube.com/watch?v=S9JGmA5_unY) by 3Blue1Brown showing how large this number is.
 
 If a website were to have all its usernames and passwords leaked, none of your other passwords would be compromised as it is effectively impossible to get the original password from the hash. An intruder would therefore have to brute force all input values to try to see which leads to the given hash. Since the hacker likely already knows your username and website, it is therefore very important to **HAVE A SECURE MASTER PASSWORD**.
 
