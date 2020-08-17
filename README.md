@@ -12,6 +12,12 @@ Note that your username doesn't have to be the same as your username for that we
 
 If your generated password has been leaked, you should enter a new value as the **index** (e.g. write 2 to indicate it's your second password) to generate a new password. If not, it should be left empty.
 
+## Installation
+
+You can use both the index.html file to enter your credentials, the python script, or you can install it as a chrome extension.
+
+To install the chrome extension, first download all the files to a folder. Visit [chrome://extensions/](chrome://extensions/), and enable developer mode and then click "Load Unpacked" and select the folder with all the files. To be able to use the extension, click the jigsaw piece in the top right of the chrome window and pin Password Hasher.
+
 ## Inner workings
 
 So how does it work? In short, it simply concatenates the username (and potential index), website name and master massword and generates a SHA-256 hash from this string (the hash is expressed as base64). The reason that a username is used is that in the event of a password leak from a website's database, all users with the same master password would also have the same hash, meaning that you could see everyone who shares your password. Similarly, the website name is used since you want different passwords for different websites.
