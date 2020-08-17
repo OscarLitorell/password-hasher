@@ -183,10 +183,3 @@ window.onload = async () => {
     usernameInput.value = username
     indexInput.value = index
 }
-
-function test() {
-    console.log(psl.parse("raw.githubusercontent.com"))
-}
-
-
-
