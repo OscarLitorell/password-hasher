@@ -20,7 +20,7 @@ To install the chrome extension, first download all the files to a folder. Visit
 
 ## Inner workings
 
-So how does it work? In short, it simply concatenates the username (and potential index), website name and master massword and generates a SHA-256 hash from this string (the hash is expressed as base64). The reason that a username is used is that in the event of a password leak from a website's database, all users with the same master password would also have the same hash, meaning that you could see everyone who shares your password. Similarly, the website name is used since you want different passwords for different websites.
+So how does it work? In short, it simply concatenates the username (and potential index), website name and master password and generates a SHA-256 hash from this string (the hash is expressed as base64). The reason that a username is used is that in the event of a password leak from a website's database, all users with the same master password would also have the same hash, meaning that you could see everyone who shares your password. Similarly, the website name is used since you want different passwords for different websites.
 
 ## Security
 
